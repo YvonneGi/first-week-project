@@ -58,7 +58,7 @@ body
     text-decoration: none;
     display:inline-block;
     border-radius:50%;
-    justify-items: center;
+    text-align: center;
 
 }
 .fa:hover
@@ -68,22 +68,30 @@ body
 .fa-facebook
 {
     background:black;
-    color:#f1f1f1;
+    color:white;
 }
 .fa-twitter
 {
     background: black;
-    color:beige;
+    color:white;
 }
 .fa-pinterest
 {
     background: black;
-    color:beige;
+    color:white;
 }
 .fa-linkedin
 {
     background-color: black;
     color:white;
+   
 }
-
+h2
+{
+    text-align: center;
+}
+.icons
+{
+    text-align: center;
+}
 
