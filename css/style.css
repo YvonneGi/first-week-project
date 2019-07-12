@@ -6,21 +6,27 @@ h1
     text-align: center;
     padding:20px;
     margin-bottom:35px;
+    margin-right: 30%;
 }
 .navigations
 {
-    background-color: grey;
+    /* background-color: grey; */
     background-position: top;
     width: 150%;
     height: 100%;
+    margin-left: -10px;
+    margin-top: -20px;
 }
 ul
 {
     display: block;
     overflow: hidden;
-    background-color: black;
+    background-color:grey;
     list-style-type:none;
     width: 100%;
+    margin-bottom: -15px;
+    margin-top: -10px;
+    position: fixed;
 
 }
 li
@@ -30,14 +36,15 @@ li
 li a
 {
     display:block;
-    color: white;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 50px;
 }
 li a:hover
 {
-    background-color: grey;
+    background-color:white;
 
 }
 h2
@@ -55,17 +62,17 @@ em
 {
     text-decoration: underline;
 }
-.container
+/* .container
 {
 column-count: 3;
 column-rule: 2px;
 column-width: 200px;
-}
+} */
 .image
 {
-    margin-bottom:35px;
-    margin-left:-15px;
-    border-radius: 8px;
+    margin-bottom:-35px;
+    margin-left:5px;
+    margin-top: 50px;
 
 }
 body
