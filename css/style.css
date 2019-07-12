@@ -6,36 +6,38 @@ h1
     text-align: center;
     padding:20px;
     margin-bottom:35px;
-
+}
+.navigations
+{
+    background-color: grey;
+    background-position: top;
+    width: 150%;
+    height: 100%;
 }
 ul
 {
- list-style-type: none;
- background-color:grey;
- overflow: hidden;
- max-width:100%;
- height:450px;
- justify-content:space-around;
- margin-left:-5px;
- margin-bottom: -10px;
- margin-top:3px;
- text-align: center;
- padding: 0.5px;
+    display: block;
+    overflow: hidden;
+    background-color: black;
+    list-style-type:none;
+    width: 100%;
+
+}
+li
+{
+    float: left;
 }
 li a
 {
-    display:inline-flex;
-    color:#000;
-    padding: 8px 16px;
-    /* text-decoration: underline; */
-    font-style: inherit;
-    font-size:30px;
-    margin-bottom:20px;
-    padding-bottom: -1px;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li a:hover
 {
-    background-color: #555;
+    background-color: grey;
 
 }
 h2
