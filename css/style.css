@@ -8,13 +8,12 @@ h1
     margin-bottom:35px;
 
 }
-
 ul
 {
  list-style-type: none;
  background-color:#f1f1f1;
  overflow: hidden;
- width: 200px;
+ width:50%;
  margin: 0;
  padding: 0;
 
@@ -25,20 +24,13 @@ li a
     color:#000;
     padding: 8px 16px;
     text-decoration: underline;
+    font-style: inherit;
+    font-size: 20px;
 }
 li a:hover
 {
     background-color: #555;
 
-}
-.container
-{
-    column-count: 3;
-    column-gap:30px;
-    column-rule: 1px white; */
-    /* column-width: 200px;
-    /* display:inline; */
-    padding:5px;
 }
 h2
 {
@@ -50,6 +42,12 @@ p{
     font-size: 10px;
     font-style: inherit;
     color: white;
+}
+.container
+{
+column-count: 3;
+column-rule: 2px;
+column-width: 200px;
 }
 body
 {
