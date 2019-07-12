@@ -21,10 +21,6 @@ ul
  margin-top:3px;
  text-align: center;
  padding: 0.5px;
-
- /* margin-bottom:-10px; */
- /* padding: 1px; */
-
 }
 li a
 {
@@ -56,6 +52,13 @@ p{
 column-count: 3;
 column-rule: 2px;
 column-width: 200px;
+}
+.image
+{
+    margin-bottom:35px;
+    margin-left:-15px;
+    border-radius: 8px;
+
 }
 body
 {
