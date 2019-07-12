@@ -1,10 +1,11 @@
 h1
 {
-    font-style:initial;
+    font-style:italic;
     font-size: 30px;
     color: white;
     text-align: center;
     padding:20px;
+    margin-bottom:35px;
 
 }
 
