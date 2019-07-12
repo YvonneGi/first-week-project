@@ -20,4 +20,44 @@ li a:hover
     background-color: #555;
 
 }
+.container
+{
+    column-count: 3;
+    column-gap:30px;
+    column-rule: 1px white; */
+    /* column-width: 200px;
+    /* display:inline; */
+    padding:5px;
+}
+h1
+{
+    font-size:20px;
+    font-style: inherit;
+    color:white;
+}
+p{
+    font-size: 10px;
+    font-style: inherit;
+    color: white;
+}
+body
+{
+    background-color: black;
+
+}
+.footer
+{
+    background-color: grey;
+    padding: 10px;
+    margin-top:150px;
+}
+.fa
+{
+    padding:2%;
+    font-size: 15px;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
 
