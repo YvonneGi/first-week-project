@@ -62,25 +62,28 @@ em
 {
     text-decoration: underline;
 }
-/* .container
-{
-column-count: 3;
-column-rule: 2px;
-column-width: 200px;
-} */
+
 .image
 {
     margin-bottom:-35px;
-    margin-left:-7px;
+    margin-left:15px;
     margin-top:36px;
-    display: flex;
-    justify-content: right;
+    column-count:2;
+    column-gap:-20%;
+    /* column-rule: 2px solid lightblue; */
+    column-width: 50px;
+    /* display: flex;
+    justify-content: right; */
 }
-.aboutme
+/* .aboutme
 {
     float:right;
+    font-size:20px;
+    padding:10%;
+    color:black;
+    font-family:sans-serif;
 
-}
+} */
 body
 {
     background-color: black;
