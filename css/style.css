@@ -67,23 +67,11 @@ em
 {
     margin-bottom:-35px;
     margin-left:15px;
-    margin-top:36px;
+    margin-top:80px;
     column-count:2;
     column-gap:-20%;
-    /* column-rule: 2px solid lightblue; */
     column-width: 50px;
-    /* display: flex;
-    justify-content: right; */
 }
-/* .aboutme
-{
-    float:right;
-    font-size:20px;
-    padding:10%;
-    color:black;
-    font-family:sans-serif;
-
-} */
 body
 {
     background-color: black;
